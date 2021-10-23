@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WG plans project</title>
+</head>
+<body class="main">
+    <div class="Navigation">
+        <h4>Навигация</h4>
+        <ul>
+            <li><a href="#tema">Темы</a></li>
+            <li><a href="#sposob">Наши способы</a></li>
+            <li><a href="#1tsel">1ая цель и серверная статистика</a></li>
+            <li><a href="#vivod">Вывод</a></li>
+            <li><a href="#2tsel">2ая цель</a></li>
+            <li><a href="#sv">Обратная связь</a></li>
+        </ul>
+    </div>
+    
+    <a name="top"></a>
+   <div class="discription">
+        <h1>Проект по игре World of Tanks</h1>
+        <h4><em id="Biba">Выполнил Биба, друг Бобы </em></h4>
+   </div>
+<hr/>
+<a name="tema"></a>
+<h2>Темы проекта:</h2>
+<ol>
+    <li>Понять какие премиум танки продаются меньше всего, и увеличить их показатели в 100500 раз, сломав к чертям весь баланс игры.</li>
+    <li>Как сделать новые карты так, чтобы они были наиболее играбельные на САУ, ведь она естественно не имба</li>
+</ol>
+<a name="1tsel"></a>
+<h2>1:</h2>
+<p>По данным серверной статистике самыми популярными прем танками являются: Сhieftain/T95, B-C Bourrasque, Renegade, E75 TS,
+поэтому мы понерфим все их показатели, так, чтобы их начали нагибать в рандоме.</p>
+<p>А таким танкам как КВ-4 Креславского, КВ-5, Bisonte C45, FCM 50t мы повысим все показатели в 100500 раз чтобы они начали уничтожать рандом, и их начали покупать игроки.</p>
+<table>
+    <tr>
+        <td>Танки</td>
+        <td>Средний урон</td>
+    </tr>
+    <tr>
+        <td>B-C Bourrasque</td>
+        <td> су - 3000ед</td>
+    </tr>
+    <tr>
+        <td>Сhieftain/T95</td>
+        <td> су - 2500ед</td>
+    </tr>
+    <tr>
+        <td>Renegade</td>
+        <td>су - 1500ед</td>
+    </tr>
+    <tr>
+        <td>КВ-5</td>
+        <td>су - 6500ед</td>
+    </tr>
+    <tr>
+        <td>FCM 50t</td>
+        <td>су - 7200ед</td>
+    </tr>
+    <tr>
+        <td>Bisonte C45</td>
+        <td>су - 8000ед</td>
+    </tr>
+</table>
+<a name="vivod"></a>
+<h2>Вывод:</h2>
+<p>Непосредственно мы видим что танки КВ-5, FCM 50t и Bisonte C45 теперь в среднем не много превосходят в уроне танки B-C Bourrasque, Сhieftain/T95 и Renegade но так как B-C Bourrasque, Сhieftain/T95 и Renegade были купленны почти всеми, мы их занерфили, а плохие танки наоборот апнули</p>
+<a name="2tsel"></a>
+<h2>2:</h2>
+<p> Наши картоделы не оставили без внимания такой игровой класс техники как САУ. На карте Берлин САУ чувствовали себя очень некомфортно, но теперь на этой карте все дома прекрасно простреливаются и САУ могут продолжать нагибать даже на этой карте.</p>
+<p> На карте Париж была аналогичная ситуация, но к счастью наши картоделы все поправили</p>
+<p> Также другие карты обзавелись удобными холмами на базах, чтобы САУ было удобнее закидывать фугасы по всей карте</p>
+<h2>Мы считаем что многих заинтересовала наша компания и многие наверняка хотели бы попасть к нам.</h2>
+<a name="sv"></a>
+<h2>Как с нами связаться?</h2>
+<ul>
+    <li><a target="_blank" href="https://vk.com/a9r9t6">  Заведующий отделом маркетинга </a></li>
+    <li><a target="_blank" href="https://vk.com/gonza_style_serega"> Главный балансер танков</a></li>
+</ul>
+<h2>Обратная связь</h2>
+    <form action="/">
+        <label for="email"> Email: </label>
+        <input type="email" id="email" placeholder="Ваш email...">
+        <label for="name"> Имя: </label>
+        <input type="text" id="name" placeholder="Ваше имя...">
+        <br/>
+        <label for="text"> Текст: </label>
+        <textarea id="text" rows="2"></textarea>
+        <br/>
+        <input type="submit" value="Отправить">
+    </form>
