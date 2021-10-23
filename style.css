@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(219, 219, 219);
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+}
+#Biba{
+    color: rgb(196, 3, 3);
+}
+.Navigation{
+    margin-left: 1200px;
+    position: fixed;
